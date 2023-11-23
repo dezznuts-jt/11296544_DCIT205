@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    background-color: bisque;
+    width: 100%;
+}
+.logo img{
+    height: 60px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.item a{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    display: inline-block;
+    left: 800px;
+    margin-right: 10px;
+    bottom: 40px;
+}
+.home{
+    background-image: url(./IMAGES/CS\ STUDENTS.jpg);
+    height: 500px;
+    width: 1200px;
+    position: relative;
+}
+.riri{
+    font-size: 20px;
+
+}
+.bottom a{
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    margin-right: 10px;
+    bottom: 40px;
+    height: 100px;
+}
+
+ 
+
+.box{
+    height: 150px;
+}
+.image_box{
+    margin-left: 100px;
+    position: relative;
+    
+}
+
+.final-_grid{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    padding: 80px
+}  
+
+.final{
+    border: 1px solid;
+    font-size: 18px;
+}
+
+.inner_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
