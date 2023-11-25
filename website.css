@@ -54,7 +54,7 @@
     
 }
 
-.final-_grid{
+.final_grid{
     display: grid;
     background-color: gray;
     grid-template-columns: auto auto;
@@ -62,13 +62,25 @@
     padding: 80px
 }  
 
-.final{
-    border: 1px solid;
-    font-size: 18px;
-}
+
 
 .inner_grid{
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 10px;
 }
+.footer{
+    background-color: rgb(5, 5, 118);
+    color: white;
+    padding: 30px;
+}
+    .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 1000px;
+    }
+    #content {
+      padding: 25px;
+    }
