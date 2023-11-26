@@ -4,7 +4,7 @@
 }
 
 .nav-bar{
-    background-color: bisque;
+    background-color: whitesmoke;
     width: 100%;
 }
 .logo img{
@@ -72,15 +72,45 @@
 .footer{
     background-color: rgb(5, 5, 118);
     color: white;
-    padding: 30px;
+    padding: 20px;
 }
     .container{
+        color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1100px;
     }
     #content {
       padding: 25px;
     }
+
+    .research-project {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .nav-bar{
+    
+    width: 100%;
+}
+.last_grid{
+            display: grid;
+            background-color: rgb(5, 5, 118);
+            column-gap: 100px;
+            grid-template-columns: auto auto  ;
+            padding-right: 90px;
+        }
+        .last{
+            padding: 40px;
+            font-size: 18px;
+        }
+        .inner_grid{
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 100px;
+
+        }
