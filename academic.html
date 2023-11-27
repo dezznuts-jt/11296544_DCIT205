@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Computer Science Department - Faculty</title>
+    <title>ACADEMICS</title>
   <style>
-    .final_grid{
-    display: grid;
-    background-color: gray;
-    grid-template-columns: auto auto;
-    column-gap: 30px;
-    padding: 80px
-}  
-
+ 
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
+      font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 0;
     }
 
-.nav-bar{
-background-color: white;
-grid-template-columns: auto auto;
-width: 100%;
+    .nav-bar{
+    
+    width: 100%;
 }
-    .logo img{
+.logo img{
     height: 60px;
     margin-left: 10px;
     display: inline-block;
-    }
-    .item a{
+}
+.item a{
     list-style-type: none;
     text-decoration: none;
     text-align: center;
@@ -39,11 +30,45 @@ width: 100%;
     margin-right: 10px;
     bottom: 40px;
 }
-    #header {
-      background-color: #333;
-      color: #fff;
+
+    header {
+      background-color: white;
+      color:rgb(5, 5, 118);
       padding: 20px;
-      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+      font-weight: 700;
+    }
+    .riri{
+    font-size: 20px;
+
+}
+    .nav-bar{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.logo img{
+    height: 60px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.item a{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    display: inline-block;
+    left: 800px;
+    margin-right: 10px;
+    bottom: 40px;
+}
+    
+    
+    main {
+      padding: 40px;
     }
     .footer{
     background-color: rgb(5, 5, 118);
@@ -91,64 +116,93 @@ width: 100%;
 
         }
 
-
- 
-
-    .faculty-member {
-      text-align: center;  
-      margin-bottom: 20px;
-      padding: 10px;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .faculty_member h3 {
-      margin: 10px;
-      color: #333;
-      font-size: 40px;
-      text-align: center;
-    }
-
-    .faculty-member p {
-      margin: 10px;
-      color: #555;
-    }
+   
+    
+    
+   
+   
+   
+    
+  .academics{
+    display: grid;
+    background-color: rgb(5, 5, 118);
+    color: white;
+    padding: 40px;
+  }
+  
+    
   </style>
 </head>
 <body>
+  <header>
+   
+  
     <div  class="nav-bar">
         <div class="logo">
        <img src="./IMAGES/-CS_DP_LOGO-removeD BACKGROUND.png" alt="department of computer science logo">
-        </div>
        <div class="item">
         <a href="home.html"><li>HOME</li></a>
         <a href="about.html"><li>ABOUT</li></a>
         <a href="faculty.html"><li>FACULTY</li></a>
-        <a href="research.html"><li>RESEARCH</li></a>
+        <a href="researchgroups.html"><li></li>RESEARCH</a>
        </div>
        </div>
+       
+       <div class="academics">
+        <h1 style="text-align: center;">ACADEMICS</h1>
+       </div>
+      
 
     </div>
-  <div id="header" style="background-color: rgb(7, 7, 78);">
-    <h1>FACULTY</h1>
-    <h2>YOUR GATEWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</h2>
-  </div>
-  <div id="content">
-    <div class="faculty-member">
-        
-      <h3>Departmental Events</h3>
-      <p>Programmes,seminars and events organised by the department.</p>
-      <img src="IMAGES/R.jpg" style="height: 250px;">
-    </div>
-  </div>
-    <div class="faculty_member">
-      <h3>Short Courses we offer</h3>
-      <p>Our eight week intensive certificate course is to open to senior high school graduates,tetiary students,school graduates,workers and the general public.</p>
-      <img src="IMAGES/evening.jpg" style="height: 250px; padding-left: 420px;">
-      <p style="text-align: center; font-style: italic;">Evening and Weekend Sessions only</p>
+  </header>
+
+  <main>
+    <section class="mission">
+      <h2>Mission Statement</h2>
+      <img src="IMAGES/smile.jpg" alt="" style="height: 300px;">
+      <p>Our mission is to equip students with the knowledge and skills necessary to excel in the rapidly evolving field of computer science. We strive to foster critical thinking, problem-solving, and creativity.</p>
+    </section>
+
+    <section class="programs">
+      <h2>Academic Programs</h2>
+      <ul>
+        <li>Bachelor of Science in Computer Science (BSc CS)</li>
+        <li>Master of Science in Computer Science (MSc CS)</li>
+        <li>Doctor of Philosophy in Computer Science (PhD CS)</li>
+      </ul>
+    </section>
+
+    <section class="research">
+      <h2>Research Areas</h2>
+      <ul>
+        <li>Artificial Intelligence and Machine Learning</li>
+        <li>Computer Vision and Image Processing</li>
+        <li>Data Science and Big Data Analytics</li>
+        <li>Libraries</li>
+        <li>Cybersecurity and Privacy</li>
+        <li>Research at DCS</li>
+      </ul>
+    </section>
+
+    </section>
+
+    <section class="faculty">
+       
+      <h2>Faculty and Staff</h2>
+      <img src="IMAGES/staff.jpg" alt="" style="height: 250px;">
       
-    </div>
+      <p>For more information, visit our <a href="faculty.html">Faculty Page</a>.</p>
+    </section>
+
+    <section class="resources">
+      <h2>Student Resources</h2>
+      <ul>
+        <li>Academic advising and mentoring</li>
+        <li>Career counseling and placement assistance</li>
+        <li>Student organizations and clubs</li>
+        <li>Research opportunities and internships</li>
+      </ul>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="foot1">
@@ -196,7 +250,7 @@ width: 100%;
               </div>
       
               <div class="last"> 
-                <div  style="font-size: 30px;">CONTACT US </div><br>
+                <div  style="font-size: 30px;"><a href="contact.hmtl">CONTACT US</a></div>  <br>
                   <div class="inner_grid">
                       <div class="inner">
                           <div  style="font-size: 30px;">Phone & Email</div><br>
@@ -215,6 +269,5 @@ width: 100%;
           </div>
           <div>
       </div>
-  </div>
-</body>
-</html>
+    </div>
+    
