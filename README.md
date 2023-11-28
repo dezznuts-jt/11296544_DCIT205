@@ -8,13 +8,13 @@ Greetings from the Department of Computer Science Website! Important aspects on 
 Our department is dedicated to supporting you in your endeavors, be they degree pursuits or research endeavors. Through this website, individuals can learn more about the department. Additionally, it offers access to tools created to help you achieve your goals and the chance to get in touch with the department with any questions or concerns.
 
 # How to clone and setup the project
-1.Move to the original repository, and click the green "Code" button to get the URL to clone.
-2.Open your Git bash and type git clone "URL" to clone the repository
-3. Initialize git on the folder.
-4. Add all changes made to your website using the command git add --all.
-5. Commit the changes.
-6. Push the changes to your remote repository.
-7. Raise a pull request to merge the two branches.
+1. To obtain the URL to clone, navigate to the original repository and click the green "Code" button.
+2. To clone the repository, open your Git shell and run git clone "URL".
+3. Set up git for the folder initially.
+4. Use the command git add --all to include every modification made to your website.
+5. Apply the modifications.
+6. Transfer the modified files to the remote repository.
+7. Submit a pull request to combine both branches.
 
 ![](screenshot/home.page1)
 ![](screenshot/home.page2)
